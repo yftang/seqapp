@@ -1,0 +1,27 @@
+{
+    "cuffdiffExec": "/online/software/cuffdiff",
+    "genomeBtwIdx": "/online/databases/hg38",
+    "gtfPath": "/online/databases/hg38.gtf",
+    "tranxBtwIdx": "/online/databases/hg38_gene",
+    "projectPath": "/home/sam/GoTest",
+    "groups": [{
+        "name": "Oh-U",
+        "samples": ["CHG016348", "CHG016351", "CHG016354"]
+    }, {
+        "name": "Oh-M",
+        "samples": ["CHG016349", "CHG016352", "CHG016355"]
+    }, {
+        "name": "Oh-B",
+        "samples": ["CHG016350", "CHG016353", "CHG016356"]
+    }],
+    "comparisons": [{
+        "case": "Oh-U",
+        "control": "Oh-M"
+    }, {
+        "case": "Oh-U",
+        "control": "Oh-B"
+    }, {
+        "case": "Oh-M",
+        "control": "Oh-B"
+    }]
+}
